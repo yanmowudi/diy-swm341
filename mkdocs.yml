@@ -5,3 +5,8 @@ repo_url: https://github.com/yanmowudi/diy-swm341
 nav:
   - 前言: 'index.md'
   - 目录: '目录.md'
+  - GPIO: 
+    - GPIO: 'GPIO/GPIO.md'
+    - EXTI: 'GPIO/EXTI.md'
+  - LVGL: 'LVGL/LVGL.md'
+  
