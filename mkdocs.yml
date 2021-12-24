@@ -1,0 +1,7 @@
+site_name: CS自学指南
+theme:
+  name: material
+repo_url: https://github.com/yanmowudi/diy-swm341
+nav:
+  - 前言: 'index.md'
+  - 目录: '目录.md'
