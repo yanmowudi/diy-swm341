@@ -10,8 +10,6 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    primary: light blue
-    accent: indigo
   logo: images/logo.png
   favicon: images/logo.png
 extra:
