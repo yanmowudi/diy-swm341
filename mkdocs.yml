@@ -1,6 +1,12 @@
 site_name: SWM341应用指南
 theme:
   name: material
+  palette: 
+    scheme: slate
+    primary: light blue
+    accent: indigo
+    logo: images/synwit.png
+    favicon: images/synwit.png
 repo_url: https://github.com/yanmowudi/diy-swm341
 nav:
   - 前言: 'index.md'
