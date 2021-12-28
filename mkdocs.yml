@@ -5,8 +5,13 @@ theme:
     scheme: slate
     primary: light blue
     accent: indigo
-  logo: images/synwit.png
-  favicon: images/synwit.png
+  logo: images/logo.png
+  favicon: images/logo.png
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yanmowudi
+      name: yanmowudi on github
 repo_url: https://github.com/yanmowudi/diy-swm341
 nav:
   - 前言: 'index.md'
