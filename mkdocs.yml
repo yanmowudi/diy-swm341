@@ -2,7 +2,14 @@ site_name: SWM341应用指南
 theme:
   name: material
   palette: 
-    scheme: slate
+    - scheme: slate 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
     primary: light blue
     accent: indigo
   logo: images/logo.png
@@ -13,6 +20,7 @@ extra:
       link: https://github.com/yanmowudi
       name: yanmowudi on github
 repo_url: https://github.com/yanmowudi/diy-swm341
+repo_name: yanmowudi/diy-swm341
 nav:
   - 前言: 'index.md'
   - 目录: '目录.md'
