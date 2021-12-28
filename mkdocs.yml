@@ -5,8 +5,8 @@ theme:
     scheme: slate
     primary: light blue
     accent: indigo
-    logo: images/synwit.png
-    favicon: images/synwit.png
+  logo: images/synwit.png
+  favicon: images/synwit.png
 repo_url: https://github.com/yanmowudi/diy-swm341
 nav:
   - 前言: 'index.md'
