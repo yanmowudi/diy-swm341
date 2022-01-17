@@ -41,8 +41,12 @@ extra:
 nav:
   - 前言: 'index.md'
   - 目录: '目录.md'
-  - GPIO: 
-    - GPIO: 'GPIO/GPIO.md'
-    - EXTI: 'GPIO/EXTI.md'
+  - 1 概述: '概述.md'
+  - 2 硬件资源详解: '硬件资源详解.md'
+  - 3 存储器组织结构: '存储器组织结构.md'
+  - 4 通用I/O(GPIO): 
+    - 4.1 GPIO主要特性: 'GPIO/主要特性.md'
+    - 4.2 通用I/O(GPIO): 'GPIO/GPIO.md'
+    - 4.3 外部中断(EXTI): 'GPIO/EXTI.md'
   - LVGL: 'LVGL/LVGL.md'
   
