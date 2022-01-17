@@ -40,12 +40,12 @@ extra:
 # Page tree
 nav:
   - 前言: 'index.md'
-  - 1 概述: '概述.md'
-  - 2 硬件资源详解: '硬件资源详解.md'
-  - 3 存储器组织结构: '存储器组织结构.md'
+  - 1 概述: 'HW/概述.md'
+  - 2 存储器组织结构: 'HW/存储器组织结构.md'
+  - 3 硬件资源详解: 'HW/硬件资源详解.md'
   - 4 通用I/O(GPIO): 
-    - 4.1 GPIO主要特性: 'GPIO/主要特性.md'
-    - 4.2 通用I/O(GPIO): 'GPIO/GPIO.md'
-    - 4.3 外部中断(EXTI): 'GPIO/EXTI.md'
-  - LVGL: 'LVGL/LVGL.md'
+    - 4.1 GPIO主要特性: 'HW/GPIO/主要特性.md'
+    - 4.2 通用I/O(GPIO): 'HW/GPIO/GPIO.md'
+    - 4.3 外部中断(EXTI): 'HW/GPIO/EXTI.md'
+  - LVGL: 'SW/LVGL/LVGL.md'
   
