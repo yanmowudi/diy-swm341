@@ -29,6 +29,9 @@ theme:
         name: Switch to dark mode
   logo: images/logo.png
   favicon: images/logo.png
+  icon:
+    admonition:
+      <type>:<material/alert>
 
 # Customization
 extra:
@@ -77,13 +80,6 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
 
 # Page tree
 nav:
