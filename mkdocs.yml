@@ -162,5 +162,7 @@ nav:
     - 38.1 DIV主要特性: 'HW/DIV/主要特性.md'
   - 39 直接存储器访问控制器DMA:
     - 39.1 DMA主要特性: 'HW/DMA/主要特性.md'
-  - LVGL: 'SW/LVGL/LVGL.md'
+  - 40 LVGL:
+    - 40.1 LVGL主要特性: 'SW/LVGL/LVGL.md'
+    - 40.2 旋转屏幕: 'SW/LVGL/旋转屏幕.md'
   
