@@ -98,7 +98,7 @@ nav:
   - 7 掉电检测器BOD:
     - 7.1 BOD主要特性: 'HW/BOD/主要特性.md'
   - 8 低功耗模式LOWPOWER:
-    - 8.1 LOWPOWER主要特性: 'HW/LOWPOWE/主要特性.md'
+    - 8.1 LOWPOWER主要特性: 'HW/LOWPOWER/主要特性.md'
   - 9 时钟源CLOCKSOURCE:
     - 9.1 CLOCKSOURCE主要特性: 'HW/CLOCKSOURCE/主要特性.md'
   - 10 嵌套向量中断控制器NVIC:
