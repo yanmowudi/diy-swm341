@@ -108,7 +108,7 @@ nav:
     - 11.1 SysTick主要特性: 'HW/SYSTICK/主要特性.md'
   - 12 FLASH存储器FMC:
     - 12.1 FMC主要特性: 'HW/FMC/主要特性.md'
-  - 13 QSPI存储器SFC:
+  - 13 Quad SPI存储器SFC:
     - 13.1 SFC主要特性: 'HW/SFC/主要特性.md'
   - 14 同步动态随机存取内存SDRAM:
     - 14.1 SDRAM主要特性: 'HW/SDRAM/主要特性.md'
