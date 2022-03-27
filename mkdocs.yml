@@ -122,7 +122,7 @@ nav:
     - 18.1 CAN主要特性: 'HW/CAN/主要特性.md'
   - 19 安全数字输入/输出多媒体卡接口SDIO:
     - 19.1 SDIO主要特性: 'HW/SDIO/主要特性.md'
-    - 19.2 SDIO主要特性: 'HW/SDIO/使用FatFs进行读写速度测试.md'
+    - 19.2 使用FatFs进行读写速度测试: 'HW/SDIO/使用FatFs进行读写速度测试.md'
   - 20 USB on-the-go:
     - 20.1 USB主要特性: 'HW/USB/主要特性.md'
   - 21 模数转换器ADC:
