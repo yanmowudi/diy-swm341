@@ -41,7 +41,7 @@
         res = f_read(&fil, op_buf, FILE_OP_SIZE, &len);
         if (res != FR_OK)
         {
-            printf("read file fial!\r\n");
+            printf("read file fail!\r\n");
             goto loop_forever;
         }
         if(len != FILE_OP_SIZE)
