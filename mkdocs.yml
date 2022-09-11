@@ -135,6 +135,7 @@ nav:
     - 24.1 OPA主要特性: 'HW/OPA/主要特性.md'
   - 25 LCD-TFT图形控制器:
     - 25.1 LCD主要特性: 'HW/LCD/主要特性.md'
+    - 25.2 DCLK中断问题: 'HW/LCD/DCLK中断问题.md'
   - 26 2D图形加速控制器DMA2D:
     - 26.1 DMA2D主要特性: 'HW/DMA2D/主要特性.md'
   - 27 JPEG解码器:
