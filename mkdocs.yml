@@ -79,7 +79,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-- pymdownx.tilde
+  - pymdownx.tilde
 
 # Page tree
 nav:
