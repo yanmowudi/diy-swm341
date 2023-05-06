@@ -42,129 +42,128 @@ theme:
     edit: material/pencil 
     view: material/eye
 
+# Customization
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/yanmowudi
       name: yanmowudi on github
 
-# # Extensions
-# markdown_extensions:
-#   # Python Markdown
-#   - abbr
-#   - admonition
-#   - attr_list
-#   - def_list
-#   - footnotes
-#   - md_in_html
-#   - toc:
-#     permalink: true
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+    permalink: true
 
-  # # Python Markdown Externsions
-  # - pymdownx.arithmatex:
-  #     generic: true
-  # - pymdownx.betterem:
-  #     smart_enable: all
-  # - pymdownx.caret
-  # - pymdownx.details
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:materialx.emoji.twemoji
-  #     emoji_generator: !!python/name:materialx.emoji.to_svg
-  # - pymdownx.hightlight
-  # - pymdownx.inlinehilite
-  # - pymdownx.keys
-  # - pymdownx.mark
-  # - pymdownx.smartsymbols
-  # - pymdownx.superfences
-  # - pymdownx.tabbed:
-  #     alternate_style: true
-  # - pymdownx.tasklist:
-  #     custom_checkbox: true
-  # - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.hightlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+- pymdownx.tilde
 
 # Page tree
 nav:
   - 前言: 'index.md'
-  # - 1 概述: 'HW/概述.md'
-  # - 2 存储器组织结构: 'HW/存储器组织结构.md'
-  # - 3 硬件资源详解: 'HW/硬件资源详解.md'
-  # - 4 通用I/O GPIO: 
-  #   - 4.1 GPIO主要特性: 'HW/GPIO/主要特性.md'
-  #   - 4.2 通用I/O GPIO: 'HW/GPIO/GPIO.md'
-  #   - 4.3 外部中断EXTI: 'HW/GPIO/EXTI.md'
-  # - 5 I/O引脚复用功能映射PORT:
-  #   - 5.1 PORT主要特性: 'HW/PORT/主要特性.md'
-  # - 6 系统控制器SYS:
-  #   - 6.1 SYS主要特性: 'HW/SYS/主要特性.md'
-  # - 7 掉电检测器BOD:
-  #   - 7.1 BOD主要特性: 'HW/BOD/主要特性.md'
-  # - 8 低功耗模式LOWPOWER:
-  #   - 8.1 LOWPOWER主要特性: 'HW/LOWPOWER/主要特性.md'
-  # - 9 时钟源CLOCKSOURCE:
-  #   - 9.1 CLOCKSOURCE主要特性: 'HW/CLOCKSOURCE/主要特性.md'
-  # - 10 嵌套向量中断控制器NVIC:
-  #   - 10.1 NVIC主要特性: 'HW/NVIC/主要特性.md'
-  # - 11 系统定时器SysTick:
-  #   - 11.1 SysTick主要特性: 'HW/SYSTICK/主要特性.md'
-  # - 12 FLASH存储器FMC:
-  #   - 12.1 FMC主要特性: 'HW/FMC/主要特性.md'
-  # - 13 Quad SPI存储器SFC:
-  #   - 13.1 SFC主要特性: 'HW/SFC/主要特性.md'
-  # - 14 同步动态随机存取内存SDRAM:
-  #   - 14.1 SDRAM主要特性: 'HW/SDRAM/主要特性.md'
-  # - 15 通用异步收发器UART:
-  #   - 15.1 UART主要特性: 'HW/UART/主要特性.md'
-  # - 16 内部集成电路接口I2C:
-  #   - 16.1 I2C主要特性: 'HW/I2C/主要特性.md'
-  # - 17 串行外设接口SPI:
-  #   - 17.1 SPI主要特性: 'HW/SPI/主要特性.md'
-  # - 18 控制器局域网络CAN:
-  #   - 18.1 CAN主要特性: 'HW/CAN/主要特性.md'
-  # - 19 安全数字输入/输出多媒体卡接口SDIO:
-  #   - 19.1 SDIO主要特性: 'HW/SDIO/主要特性.md'
-  #   - 19.2 使用FatFs进行读写速度测试: 'HW/SDIO/使用FatFs进行读写速度测试.md'
-  # - 20 USB on-the-go:
-  #   - 20.1 USB主要特性: 'HW/USB/主要特性.md'
-  # - 21 模数转换器ADC:
-  #   - 21.1 ADC主要特性: 'HW/ADC/主要特性.md'
-  # - 22 数模转换器DAC:
-  #   - 22.1 DAC主要特性: 'HW/DAC/主要特性.md'
-  # - 23 比较器CMP:
-  #   - 23.1 CMP主要特性: 'HW/CMP/主要特性.md'
-  # - 24 运算放大器OPA:
-  #   - 24.1 OPA主要特性: 'HW/OPA/主要特性.md'
-  # - 25 LCD-TFT图形控制器:
-  #   - 25.1 LCD主要特性: 'HW/LCD/主要特性.md'
-  #   - 25.2 DCLK中断问题: 'HW/LCD/DCLK中断问题.md'
-  # - 26 2D图形加速控制器DMA2D:
-  #   - 26.1 DMA2D主要特性: 'HW/DMA2D/主要特性.md'
-  # - 27 JPEG解码器:
-  #   - 27.1 JPEG主要特性: 'HW/JPEG/主要特性.md'
-  # - 28 通用定时器TIMR:
-  #   - 28.1 TIMR主要特性: 'HW/TIMR/主要特性.md'
-  # - 29 基本定时器BTIMR:
-  #   - 29.1 BTIMR主要特性: 'HW/BTIMR/主要特性.md'
-  # - 30 脉冲宽度调制器PWM:
-  #   - 30.1 PWM主要特性: 'HW/PWM/主要特性.md'
-  # - 31 看门狗WDT:
-  #   - 31.1 WDT主要特性: 'HW/WDT/主要特性.md'
-  # - 32 实时时钟RTC:
-  #   - 32.1 RTC主要特性: 'HW/RTC/主要特性.md'
-  # - 33 浮点运算单元FPU:
-  #   - 33.1 FPU主要特性: 'HW/FPU/主要特性.md'
-  # - 34 数字信号处理器DSP:
-  #   - 34.1 DSP主要特性: 'HW/DSP/主要特性.md'
-  # - 35 循环冗余校验CRC:
-  #   - 35.1 CRC主要特性: 'HW/CRC/主要特性.md'
-  # - 36 随机数发生器RNG:
-  #   - 36.1 RNG主要特性: 'HW/RNG/主要特性.md'
-  # - 37 坐标旋转数字计算器CORDIC:
-  #   - 37.1 CORDIC主要特性: 'HW/CORDIC/主要特性.md'
-  # - 38 除法器DIV:
-  #   - 38.1 DIV主要特性: 'HW/DIV/主要特性.md'
-  # - 39 直接存储器访问控制器DMA:
-  #   - 39.1 DMA主要特性: 'HW/DMA/主要特性.md'
-  # - 40 LVGL:
-  #   - 40.1 LVGL主要特性: 'SW/LVGL/LVGL.md'
-  #   - 40.2 旋转屏幕: 'SW/LVGL/旋转屏幕.md'
+  - 1 概述: 'HW/概述.md'
+  - 2 存储器组织结构: 'HW/存储器组织结构.md'
+  - 3 硬件资源详解: 'HW/硬件资源详解.md'
+  - 4 通用I/O GPIO: 
+    - 4.1 GPIO主要特性: 'HW/GPIO/主要特性.md'
+    - 4.2 通用I/O GPIO: 'HW/GPIO/GPIO.md'
+    - 4.3 外部中断EXTI: 'HW/GPIO/EXTI.md'
+  - 5 I/O引脚复用功能映射PORT:
+    - 5.1 PORT主要特性: 'HW/PORT/主要特性.md'
+  - 6 系统控制器SYS:
+    - 6.1 SYS主要特性: 'HW/SYS/主要特性.md'
+  - 7 掉电检测器BOD:
+    - 7.1 BOD主要特性: 'HW/BOD/主要特性.md'
+  - 8 低功耗模式LOWPOWER:
+    - 8.1 LOWPOWER主要特性: 'HW/LOWPOWER/主要特性.md'
+  - 9 时钟源CLOCKSOURCE:
+    - 9.1 CLOCKSOURCE主要特性: 'HW/CLOCKSOURCE/主要特性.md'
+  - 10 嵌套向量中断控制器NVIC:
+    - 10.1 NVIC主要特性: 'HW/NVIC/主要特性.md'
+  - 11 系统定时器SysTick:
+    - 11.1 SysTick主要特性: 'HW/SYSTICK/主要特性.md'
+  - 12 FLASH存储器FMC:
+    - 12.1 FMC主要特性: 'HW/FMC/主要特性.md'
+  - 13 Quad SPI存储器SFC:
+    - 13.1 SFC主要特性: 'HW/SFC/主要特性.md'
+  - 14 同步动态随机存取内存SDRAM:
+    - 14.1 SDRAM主要特性: 'HW/SDRAM/主要特性.md'
+  - 15 通用异步收发器UART:
+    - 15.1 UART主要特性: 'HW/UART/主要特性.md'
+  - 16 内部集成电路接口I2C:
+    - 16.1 I2C主要特性: 'HW/I2C/主要特性.md'
+  - 17 串行外设接口SPI:
+    - 17.1 SPI主要特性: 'HW/SPI/主要特性.md'
+  - 18 控制器局域网络CAN:
+    - 18.1 CAN主要特性: 'HW/CAN/主要特性.md'
+  - 19 安全数字输入/输出多媒体卡接口SDIO:
+    - 19.1 SDIO主要特性: 'HW/SDIO/主要特性.md'
+    - 19.2 使用FatFs进行读写速度测试: 'HW/SDIO/使用FatFs进行读写速度测试.md'
+  - 20 USB on-the-go:
+    - 20.1 USB主要特性: 'HW/USB/主要特性.md'
+  - 21 模数转换器ADC:
+    - 21.1 ADC主要特性: 'HW/ADC/主要特性.md'
+  - 22 数模转换器DAC:
+    - 22.1 DAC主要特性: 'HW/DAC/主要特性.md'
+  - 23 比较器CMP:
+    - 23.1 CMP主要特性: 'HW/CMP/主要特性.md'
+  - 24 运算放大器OPA:
+    - 24.1 OPA主要特性: 'HW/OPA/主要特性.md'
+  - 25 LCD-TFT图形控制器:
+    - 25.1 LCD主要特性: 'HW/LCD/主要特性.md'
+    - 25.2 DCLK中断问题: 'HW/LCD/DCLK中断问题.md'
+  - 26 2D图形加速控制器DMA2D:
+    - 26.1 DMA2D主要特性: 'HW/DMA2D/主要特性.md'
+  - 27 JPEG解码器:
+    - 27.1 JPEG主要特性: 'HW/JPEG/主要特性.md'
+  - 28 通用定时器TIMR:
+    - 28.1 TIMR主要特性: 'HW/TIMR/主要特性.md'
+  - 29 基本定时器BTIMR:
+    - 29.1 BTIMR主要特性: 'HW/BTIMR/主要特性.md'
+  - 30 脉冲宽度调制器PWM:
+    - 30.1 PWM主要特性: 'HW/PWM/主要特性.md'
+  - 31 看门狗WDT:
+    - 31.1 WDT主要特性: 'HW/WDT/主要特性.md'
+  - 32 实时时钟RTC:
+    - 32.1 RTC主要特性: 'HW/RTC/主要特性.md'
+  - 33 浮点运算单元FPU:
+    - 33.1 FPU主要特性: 'HW/FPU/主要特性.md'
+  - 34 数字信号处理器DSP:
+    - 34.1 DSP主要特性: 'HW/DSP/主要特性.md'
+  - 35 循环冗余校验CRC:
+    - 35.1 CRC主要特性: 'HW/CRC/主要特性.md'
+  - 36 随机数发生器RNG:
+    - 36.1 RNG主要特性: 'HW/RNG/主要特性.md'
+  - 37 坐标旋转数字计算器CORDIC:
+    - 37.1 CORDIC主要特性: 'HW/CORDIC/主要特性.md'
+  - 38 除法器DIV:
+    - 38.1 DIV主要特性: 'HW/DIV/主要特性.md'
+  - 39 直接存储器访问控制器DMA:
+    - 39.1 DMA主要特性: 'HW/DMA/主要特性.md'
+  - 40 LVGL:
+    - 40.1 LVGL主要特性: 'SW/LVGL/LVGL.md'
+    - 40.2 旋转屏幕: 'SW/LVGL/旋转屏幕.md'
   
