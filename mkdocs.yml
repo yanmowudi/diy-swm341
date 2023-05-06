@@ -8,12 +8,11 @@ site_description: >-
 # Repository
 repo_name: yanmowudi/diy-swm341
 repo_url: https://github.com/yanmowudi/diy-swm341
-edit_uri: ""
+edit_uri: edit/master/docs/
 
 # Configuration
 theme:
   name: material
-  language: zh
   palette: 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate 
@@ -29,18 +28,25 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-#   logo: images/logo.png
-#   favicon: images/logo.png
-#   icon:
-#     admonition:
-#       <type>:<material/alert>
+  language: zh
+  logo: images/logo.png
+  favicon: images/logo.png
+  features:
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
 
-# # Customization
-# extra:
-#   social:
-#     - icon: fontawesome/brands/github
-#       link: https://github.com/yanmowudi
-#       name: yanmowudi on github
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yanmowudi
+      name: yanmowudi on github
 
 # # Extensions
 # markdown_extensions:
