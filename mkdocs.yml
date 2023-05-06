@@ -14,19 +14,21 @@ edit_uri: ""
 theme:
   name: material
   language: zh
-#   palette: 
-#     - scheme: slate 
-#       primary: light blue
-#       accent: indigo
-#       toggle:
-#         icon: material/weather-sunny
-#         name: Switch to light mode
-#     - scheme: default
-#       primary: cyan
-#       accent: indigo
-#       toggle:
-#         icon: material/weather-night
-#         name: Switch to dark mode
+  palette: 
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate 
+      primary: light blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 #   logo: images/logo.png
 #   favicon: images/logo.png
 #   icon:
