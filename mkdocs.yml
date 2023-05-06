@@ -48,17 +48,17 @@ extra:
       link: https://github.com/yanmowudi
       name: yanmowudi on github
 
-# Extensions
-markdown_extensions:
-  # Python Markdown
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - toc:
-    permalink: true
+# # Extensions
+# markdown_extensions:
+#   # Python Markdown
+#   - abbr
+#   - admonition
+#   - attr_list
+#   - def_list
+#   - footnotes
+#   - md_in_html
+#   - toc:
+#     permalink: true
 
   # # Python Markdown Externsions
   # - pymdownx.arithmatex:
