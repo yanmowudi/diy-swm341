@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make
-    - run: cd code/demo_blink
+      run: cd code/demo_blink
     - run: make
