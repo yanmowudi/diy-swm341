@@ -15,7 +15,7 @@ OPT = -Og
 # paths
 #######################################
 # Build path
-BUILD_DIR = ../out
+BUILD_DIR = out
 
 ######################################
 # source

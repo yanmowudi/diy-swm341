@@ -14,4 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make
-      run: ls
+      run: |
+      dirs=$(find -name 'demo*' -type d)
+      for item in $dirs
+      do   
+          make clean -C $item
+          make -C $item
+          make clean -C $item
+      done
